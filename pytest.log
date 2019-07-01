@@ -1,0 +1,12 @@
+# python3 echo_server.py &
+# python3 -m pytest -vvv tests.py > pytest.log
+============================= test session starts ==============================
+platform darwin -- Python 3.7.2, pytest-4.3.0, py-1.7.0, pluggy-0.8.1 -- /usr/local/opt/python/bin/python3.7
+cachedir: .pytest_cache
+rootdir: /Users/adevey/class/Python230A/lesson02/assignment/echo-server, inifile:
+collecting ... collected 2 items
+
+tests.py::EchoTestCase::test_long_message_echo PASSED                    [ 50%]
+tests.py::EchoTestCase::test_short_message_echo PASSED                   [100%]
+
+=========================== 2 passed in 0.01 seconds ===========================
